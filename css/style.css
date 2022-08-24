@@ -168,3 +168,112 @@ html,body{
     justify-content: space-between;
     margin: 20px 75px;
 }
+
+.time {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.titem {
+    margin: 10px 30px;
+    padding: 10px 20px;
+    font-family: "Ubuntu Condensed", sans-serif;
+    font-size: 18px;
+}
+
+.timec {
+    background-color: rgb(236, 238, 250);
+}
+.title {
+    font-family: "Ubuntu Condensed", sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    padding: 20px 10px;
+    margin: 0px 40px;
+}
+
+.flexrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.red {
+    padding: 10px 20px;
+    background-color: rgb(184, 23, 23);
+    color:white;
+    font-family: "Ubuntu Condensed", sans-serif;
+    width: fit-content;
+    height:fit-content;
+    border-radius: 20px;
+    margin: 0px 20px;
+    margin-left: -20px;
+}
+
+.fa-star {
+    color: rgb(184, 23, 23);
+    
+}
+
+.titleX2 {
+    font-family: "Ubuntu Condensed", sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    width: fit-content;
+    margin-bottom: 0px;
+
+}
+p {
+    font-family: "Ubuntu Condensed", sans-serif;
+    
+}
+
+.margin {
+    margin: 15px 20px;
+}
+.instructions {
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: "Ubuntu Condensed", sans-serif;
+    margin: 10px 50px;
+}
+.ingredients {
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
+    
+}
+.directions {
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
+    
+}
+
+li {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.quote {
+    font-family: "Impact", sans-serif;
+    padding: 30px 30px;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 24px;
+    background-color: rgb(216, 216, 216);
+    margin: 20px auto;
+    color: rgb(59, 59, 59);
+    
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 20px;
+}
